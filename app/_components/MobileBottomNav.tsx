@@ -37,7 +37,7 @@ export default function MobileBottomNav() {
     <nav
       className="md:hidden fixed bottom-3 left-3 right-3 z-50 rounded-2xl"
       style={{
-        backgroundColor: "rgba(19, 16, 31, 0.92)",
+        backgroundColor: "rgba(20, 18, 16, 0.94)",
         backdropFilter: "blur(12px)",
         border: "1px solid var(--color-border)",
       }}
@@ -59,7 +59,7 @@ export default function MobileBottomNav() {
                       color: "#fff",
                     }
                   : active
-                  ? { color: "var(--color-primary-light)", backgroundColor: "rgba(139,43,226,0.12)" }
+                  ? { color: "var(--color-primary-light)", backgroundColor: "rgba(249,115,22,0.12)" }
                   : { color: "var(--color-text-muted)" }
               }
             >

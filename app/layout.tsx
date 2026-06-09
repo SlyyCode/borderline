@@ -13,7 +13,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Freaklus - La plateforme de leaks #1",
+  title: "Borderline - La plateforme de leaks #1",
   description: "Rejoignez le n°1 de l'échange en France. Des milliers de membres partagent et échangent chaque jour. Nudes, sextapes et plans cul : la plus grande communauté du pays vous attend.",
 };
 

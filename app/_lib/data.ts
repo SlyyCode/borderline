@@ -19,12 +19,12 @@ export type LeakPost = {
 };
 
 export const CATEGORIES: Category[] = [
-  { id: "all", label: "Tout", color: "#a855f7", count: 2847 },
+  { id: "all", label: "Tout", color: "#f97316", count: 2847 },
   { id: "populaire", label: "Populaire", color: "#10b981", count: 742 },
   { id: "amateur", label: "Amateur", color: "#f59e0b", count: 531 },
   { id: "snapnude", label: "Snaps & Nudes", color: "#ef4444", count: 489 },
   { id: "commu", label: "Partage communautaire", color: "#3b82f6", count: 364 },
-  { id: "celebrite", label: "Celebrité", color: "#d946ef", count: 291 },
+  { id: "celebrite", label: "Celebrité", color: "#fb923c", count: 291 },
 ];
 
 export const LEAKS: LeakPost[] = [
@@ -38,7 +38,7 @@ export const LEAKS: LeakPost[] = [
     publishedAt: "2026-06-02T08:30:00",
     username: "Lucas_92",
     verified: true,
-    avatarColor: "#a855f7",
+    avatarColor: "#f97316",
   },
   {
     id: "2",
@@ -74,7 +74,7 @@ export const LEAKS: LeakPost[] = [
     publishedAt: "2026-06-01T20:00:00",
     username: "Anonyme",
     verified: false,
-    avatarColor: "#5a4f72",
+    avatarColor: "#5c5248",
   },
   {
     id: "5",
@@ -86,7 +86,7 @@ export const LEAKS: LeakPost[] = [
     publishedAt: "2026-06-01T15:00:00",
     username: "Sarah_b",
     verified: true,
-    avatarColor: "#d946ef",
+    avatarColor: "#fb923c",
   },
   {
     id: "6",
@@ -122,7 +122,7 @@ export const LEAKS: LeakPost[] = [
     publishedAt: "2026-05-31T09:00:00",
     username: "Manon_v",
     verified: true,
-    avatarColor: "#a855f7",
+    avatarColor: "#f97316",
   },
   {
     id: "9",
@@ -134,7 +134,7 @@ export const LEAKS: LeakPost[] = [
     publishedAt: "2026-05-30T14:00:00",
     username: "Anonyme",
     verified: false,
-    avatarColor: "#5a4f72",
+    avatarColor: "#5c5248",
   },
   {
     id: "10",
@@ -170,7 +170,7 @@ export const LEAKS: LeakPost[] = [
     publishedAt: "2026-05-29T07:00:00",
     username: "Hugo_ds",
     verified: true,
-    avatarColor: "#d946ef",
+    avatarColor: "#fb923c",
   },
 ];
 
@@ -185,5 +185,5 @@ export function getCategoryLabel(id: string): string {
 }
 
 export function getCategoryColor(id: string): string {
-  return CATEGORIES.find((c) => c.id === id)?.color ?? "#a855f7";
+  return CATEGORIES.find((c) => c.id === id)?.color ?? "#f97316";
 }

@@ -37,22 +37,22 @@ const formStyles = `
   #offer-box .ptprelinker-input,
   input.ptprelinker-input {
     width: 100% !important;
-    background-color: #13101f !important;
-    border: 1.5px solid #2d1b4e !important;
+    background-color: #141210 !important;
+    border: 1.5px solid #2d2820 !important;
     border-radius: 12px !important;
     padding: 13px 16px !important;
-    color: #f5f0ff !important;
+    color: #fff8f0 !important;
     font-size: 14px !important;
     transition: all 0.25s ease !important;
     margin-bottom: 10px !important;
     outline: none !important;
   }
   .ptprelinker-input:focus {
-    border-color: #8b2be2 !important;
-    background-color: #0c0a14 !important;
-    box-shadow: 0 0 0 3px rgba(139,43,226,0.18) !important;
+    border-color: #f97316 !important;
+    background-color: #0d0b09 !important;
+    box-shadow: 0 0 0 3px rgba(249,115,22,0.18) !important;
   }
-  .ptprelinker-input::placeholder { color: #3d3255 !important; }
+  .ptprelinker-input::placeholder { color: #3a2e28 !important; }
   .ptprelinker-input-group { width: 100% !important; margin-bottom: 4px !important; }
   .ptprelinker-button,
   .ptprelinker-button-success,
@@ -63,8 +63,8 @@ const formStyles = `
   .ptprelinker-register-form button,
   .ptprelinker-register-form input[type="submit"] {
     width: 100% !important;
-    background: linear-gradient(135deg, #8b2be2 0%, #d946ef 100%) !important;
-    background-color: #8b2be2 !important;
+    background: linear-gradient(135deg, #f97316 0%, #fb923c 100%) !important;
+    background-color: #f97316 !important;
     border: none !important;
     border-radius: 12px !important;
     padding: 14px 24px !important;
@@ -74,7 +74,7 @@ const formStyles = `
     cursor: pointer !important;
     transition: all 0.25s ease !important;
     margin-top: 6px !important;
-    box-shadow: 0 4px 20px rgba(139,43,226,0.45) !important;
+    box-shadow: 0 4px 20px rgba(249,115,22,0.45) !important;
     letter-spacing: 0.01em !important;
   }
   .ptprelinker-button:hover,
@@ -82,7 +82,7 @@ const formStyles = `
   #offer-box button:hover {
     opacity: 0.88 !important;
     transform: translateY(-1px) !important;
-    box-shadow: 0 6px 28px rgba(139,43,226,0.55) !important;
+    box-shadow: 0 6px 28px rgba(249,115,22,0.55) !important;
   }
   .ptprelinker-checkbox {
     display: flex !important;
@@ -96,15 +96,15 @@ const formStyles = `
     min-width: 16px !important;
     margin-right: 9px !important;
     margin-top: 2px !important;
-    accent-color: #8b2be2 !important;
+    accent-color: #f97316 !important;
     flex-shrink: 0 !important;
   }
   .ptprelinker-label-checkbox {
-    color: #5a4f72 !important;
+    color: #5c5248 !important;
     font-size: 12px !important;
     line-height: 1.6 !important;
   }
-  .ptprelinker-cgu-link { color: #a855f7 !important; font-weight: 600 !important; }
+  .ptprelinker-cgu-link { color: #fb923c !important; font-weight: 600 !important; }
   .ptprelinker-label:empty { display: none !important; }
   .cgu-couple, .ptprelinker-checkbox.cgu-couple { display: none !important; }
   .error-login { color: #ef4444 !important; font-size: 12px !important; text-align: center !important; margin: 6px 0 !important; }
@@ -112,7 +112,7 @@ const formStyles = `
   .ptprelinker-forgotten-link {
     display: block !important;
     text-align: center !important;
-    color: #a855f7 !important;
+    color: #fb923c !important;
     font-size: 12px !important;
     font-weight: 600 !important;
     margin-top: 10px !important;
@@ -120,12 +120,12 @@ const formStyles = `
     text-decoration: none !important;
     transition: color 0.2s !important;
   }
-  .ptprelinker-forgotten-link:hover { color: #d946ef !important; }
+  .ptprelinker-forgotten-link:hover { color: #f97316 !important; }
   .form-forgotten {
     position: relative !important;
     margin-top: 18px !important;
     padding-top: 18px !important;
-    border-top: 1px solid #2d1b4e !important;
+    border-top: 1px solid #2d2820 !important;
   }
   .form-forgotten.show { display: flex !important; flex-direction: column !important; }
   .form-forgotten:not(.show) { display: none !important; }
@@ -139,7 +139,7 @@ const formStyles = `
   .form-forgotten .ptprelinker-buttons { display: block !important; width: 100% !important; }
   .ptprelinker-forgotten-label {
     display: block !important;
-    color: #9185a8 !important;
+    color: #a39585 !important;
     font-size: 13px !important;
     font-weight: 600 !important;
     margin-bottom: 14px !important;
@@ -174,34 +174,34 @@ function buildCustomSelect(select: HTMLSelectElement) {
   wrapper.style.cssText = 'position:relative;width:100%;margin-bottom:10px;';
   const label = document.createElement('span');
   label.textContent = select.options[0]?.text ?? '';
-  label.style.cssText = 'color:#3d3255;';
+  label.style.cssText = 'color:#3a2e28;';
   const chevronEl = document.createElement('span');
-  chevronEl.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3d3255" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>';
+  chevronEl.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3a2e28" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>';
   chevronEl.style.cssText = 'position:absolute;right:14px;top:50%;transform:translateY(-50%);display:flex;align-items:center;pointer-events:none;';
   const display = document.createElement('div');
   display.dataset.customSelect = '1';
-  display.style.cssText = 'position:relative;width:100%;background:#13101f;border:1.5px solid #2d1b4e;border-radius:12px;padding:13px 44px 13px 16px;font-size:14px;line-height:1.5;cursor:pointer;box-sizing:border-box;user-select:none;transition:all 0.25s ease;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#f5f0ff;';
+  display.style.cssText = 'position:relative;width:100%;background:#141210;border:1.5px solid #2d2820;border-radius:12px;padding:13px 44px 13px 16px;font-size:14px;line-height:1.5;cursor:pointer;box-sizing:border-box;user-select:none;transition:all 0.25s ease;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff8f0;';
   display.appendChild(label);
   display.appendChild(chevronEl);
   const dropdown = document.createElement('div');
-  dropdown.style.cssText = 'position:absolute;top:calc(100% + 4px);left:0;right:0;background:#13101f;border:1.5px solid #2d1b4e;border-radius:12px;overflow:hidden;z-index:9999;display:none;box-shadow:0 8px 32px rgba(139,43,226,0.3);';
+  dropdown.style.cssText = 'position:absolute;top:calc(100% + 4px);left:0;right:0;background:#141210;border:1.5px solid #2d2820;border-radius:12px;overflow:hidden;z-index:9999;display:none;box-shadow:0 8px 32px rgba(249,115,22,0.25);';
   Array.from(select.options).forEach(opt => {
     if (opt.disabled) return;
     const item = document.createElement('div');
-    item.style.cssText = 'padding:11px 16px;cursor:pointer;font-size:14px;color:#f5f0ff;transition:background 0.15s;';
+    item.style.cssText = 'padding:11px 16px;cursor:pointer;font-size:14px;color:#fff8f0;transition:background 0.15s;';
     item.textContent = opt.text.trim();
-    item.addEventListener('mouseenter', () => { item.style.background = '#2d1b4e'; });
+    item.addEventListener('mouseenter', () => { item.style.background = '#2d2820'; });
     item.addEventListener('mouseleave', () => { item.style.background = ''; });
     item.addEventListener('click', () => {
       select.value = opt.value;
       select.dispatchEvent(new Event('change', { bubbles: true }));
       label.textContent = opt.text.trim();
-      label.style.color = '#f5f0ff';
+      label.style.color = '#fff8f0';
       dropdown.style.display = 'none';
       isOpen = false;
-      display.style.borderColor = '#2d1b4e';
+      display.style.borderColor = '#2d2820';
       display.style.boxShadow = '';
-      display.style.background = '#13101f';
+      display.style.background = '#141210';
     });
     dropdown.appendChild(item);
   });
@@ -209,17 +209,17 @@ function buildCustomSelect(select: HTMLSelectElement) {
   display.addEventListener('click', () => {
     isOpen = !isOpen;
     dropdown.style.display = isOpen ? 'block' : 'none';
-    display.style.borderColor = isOpen ? '#8b2be2' : '#2d1b4e';
-    display.style.boxShadow = isOpen ? '0 0 0 3px rgba(139,43,226,0.18)' : '';
-    display.style.background = isOpen ? '#0c0a14' : '#13101f';
+    display.style.borderColor = isOpen ? '#f97316' : '#2d2820';
+    display.style.boxShadow = isOpen ? '0 0 0 3px rgba(249,115,22,0.18)' : '';
+    display.style.background = isOpen ? '#0d0b09' : '#141210';
   });
   const closeOnOutside = (e: MouseEvent) => {
     if (!wrapper.contains(e.target as Node) && isOpen) {
       isOpen = false;
       dropdown.style.display = 'none';
-      display.style.borderColor = '#2d1b4e';
+      display.style.borderColor = '#2d2820';
       display.style.boxShadow = '';
-      display.style.background = '#13101f';
+      display.style.background = '#141210';
     }
   };
   document.addEventListener('click', closeOnOutside, true);
@@ -232,8 +232,8 @@ function buildCustomSelect(select: HTMLSelectElement) {
 
 function applyFormStyles() {
   document.querySelectorAll<HTMLElement>('#offer-box input[type="submit"], #offer-box button[type="submit"], .ptprelinker-button, .ptprelinker-button-success').forEach(el => {
-    el.style.setProperty('background', 'linear-gradient(135deg, #8b2be2 0%, #d946ef 100%)', 'important');
-    el.style.setProperty('background-color', '#8b2be2', 'important');
+    el.style.setProperty('background', 'linear-gradient(135deg, #f97316 0%, #fb923c 100%)', 'important');
+    el.style.setProperty('background-color', '#f97316', 'important');
   });
   document.querySelectorAll<HTMLSelectElement>('#offer-box .ptprelinker-select').forEach(buildCustomSelect);
   const inputEl = document.querySelector<HTMLElement>('#offer-box .ptprelinker-input');
@@ -270,21 +270,21 @@ export default function LoginForm() {
   }, []);
 
   return (
-    <div className="relative overflow-hidden" style={{ minHeight: 'calc(100vh - 64px)' }}>
+    <div className="relative overflow-hidden" style={{ minHeight: 'calc(100vh - 76px)' }}>
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          background: "radial-gradient(ellipse 70% 60% at 50% 0%, rgba(139,43,226,0.25) 0%, transparent 70%)",
+          background: "radial-gradient(ellipse 70% 60% at 50% 0%, rgba(249,115,22,0.2) 0%, transparent 70%)",
         }}
       />
 
-      <div className="relative flex flex-col items-center justify-center px-4 py-16" style={{ minHeight: 'calc(100vh - 64px)' }}>
+      <div className="relative flex flex-col items-center justify-center px-4 py-16" style={{ minHeight: 'calc(100vh - 76px)' }}>
         <div
           className="w-full max-w-sm rounded-2xl"
           style={{
             backgroundColor: "var(--color-bg-card)",
             border: "1px solid var(--color-border-bright)",
-            boxShadow: "0 0 40px rgba(139,43,226,0.15), 0 0 80px rgba(139,43,226,0.06)",
+            boxShadow: "0 0 40px rgba(249,115,22,0.12), 0 0 80px rgba(249,115,22,0.05)",
           }}
         >
           <div className="px-6 pt-7 pb-6 md:px-8 md:pt-8">
@@ -310,7 +310,7 @@ export default function LoginForm() {
 
             <p className="mt-5 text-center text-sm" style={{ color: 'var(--color-text-faint)' }}>
               Pas encore membre ?{' '}
-              <a href="/register" className="font-semibold transition-colors" style={{ color: 'var(--color-primary-light)' }}>
+              <a href="/register" className="font-semibold transition-colors hover:underline" style={{ color: 'var(--color-primary-light)' }}>
                 S&apos;inscrire
               </a>
             </p>

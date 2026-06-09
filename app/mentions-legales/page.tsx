@@ -8,7 +8,7 @@ export default function MentionsLegales() {
       <div className="space-y-8 text-sm leading-relaxed" style={{ color: "var(--color-text-muted)" }}>
         <p>
           Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie
-          numérique, il est précisé aux utilisateurs du site Freaklus l'identité des différents intervenants dans
+          numérique, il est précisé aux utilisateurs du site Borderline l'identité des différents intervenants dans
           le cadre de sa réalisation et de son suivi.
         </p>
 
@@ -17,10 +17,10 @@ export default function MentionsLegales() {
             Edition du site
           </h2>
           <p>
-            Le présent site, accessible à l'URL www.freaklus.com (le « Site »), est édité par :
+            Le présent site, accessible à l'URL www.borderline.com (le « Site »), est édité par :
           </p>
           <p className="mt-2">
-            Freaklus, société au capital de 50 000 euros, inscrite au R.C.S. de PARIS sous le numéro RCS B Paris
+            Borderline, société au capital de 50 000 euros, inscrite au R.C.S. de PARIS sous le numéro RCS B Paris
             987 651 322, dont le siège social est situé au 44 RUE DE SAUSSURE, 75017 PARIS, représenté(e) par
             PASCAL TAREL dûment habilité(e).
           </p>

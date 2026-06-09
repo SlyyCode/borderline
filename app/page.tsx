@@ -9,13 +9,13 @@ export default function HomePage() {
         <div
           className="absolute inset-0"
           style={{
-            background: "radial-gradient(ellipse 80% 60% at 50% -20%, rgba(139,43,226,0.35) 0%, transparent 70%), radial-gradient(ellipse 60% 40% at 80% 60%, rgba(217,70,239,0.2) 0%, transparent 60%)",
+            background: "radial-gradient(ellipse 80% 60% at 50% -20%, rgba(249,115,22,0.28) 0%, transparent 70%), radial-gradient(ellipse 60% 40% at 80% 60%, rgba(251,146,60,0.15) 0%, transparent 60%)",
           }}
         />
         <div
           className="absolute inset-0 opacity-5"
           style={{
-            backgroundImage: "repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(139,43,226,0.3) 40px), repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(139,43,226,0.3) 40px)",
+            backgroundImage: "repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(249,115,22,0.08) 40px), repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(249,115,22,0.08) 40px)",
           }}
         />
 
@@ -27,7 +27,7 @@ export default function HomePage() {
           <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
             <div
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold mb-6"
-              style={{ backgroundColor: "rgba(139,43,226,0.15)", border: "1px solid rgba(139,43,226,0.4)", color: "var(--color-primary-light)" }}
+              style={{ backgroundColor: "rgba(249,115,22,0.12)", border: "1px solid rgba(249,115,22,0.4)", color: "var(--color-primary-light)" }}
             >
               <span className="w-1.5 h-1.5 rounded-full bg-current animate-pulse" />
               Nouveau contenu tous les jours
@@ -74,7 +74,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden mt-16 py-14 px-4">
         <div
           className="absolute inset-0 pointer-events-none"
-          style={{ background: "radial-gradient(ellipse 70% 80% at 50% 50%, rgba(139,43,226,0.15) 0%, transparent 70%)" }}
+          style={{ background: "radial-gradient(ellipse 70% 80% at 50% 50%, rgba(249,115,22,0.12) 0%, transparent 70%)" }}
         />
         <div className="relative max-w-md mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-extrabold uppercase tracking-tight mb-8" style={{ color: "var(--color-text-base)" }}>
@@ -96,7 +96,7 @@ export default function HomePage() {
                 <span className="text-sm line-through" style={{ color: "var(--color-text-faint)" }}>28,93€</span>
                 <span
                   className="text-xs font-bold px-2 py-0.5 rounded-full"
-                  style={{ backgroundColor: "rgba(139,43,226,0.2)", color: "var(--color-primary-light)", border: "1px solid rgba(139,43,226,0.35)" }}
+                  style={{ backgroundColor: "rgba(249,115,22,0.15)", color: "var(--color-primary-light)", border: "1px solid rgba(249,115,22,0.4)" }}
                 >
                   -96%
                 </span>

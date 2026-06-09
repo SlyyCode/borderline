@@ -14,7 +14,7 @@ export default function PolitiqueDeConfidentialite() {
             Responsable de traitement
           </h2>
           <p>
-            Freaklus, 44 RUE DE SAUSSURE, 75017 PARIS — RCS B Paris 987 651 322. Contact : contact@jet-lead.com
+            Borderline, 44 RUE DE SAUSSURE, 75017 PARIS — RCS B Paris 987 651 322. Contact : contact@jet-lead.com
           </p>
         </section>
 

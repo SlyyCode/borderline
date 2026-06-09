@@ -25,7 +25,7 @@ export default function Cookies() {
             Cookies utilisés
           </h2>
           <p className="mb-4">
-            Voici les cookies déposés lors de votre navigation sur freaklus.com :
+            Voici les cookies déposés lors de votre navigation sur borderline.com :
           </p>
           <p style={{ color: "var(--color-text-faint)" }}>
             Ce site ne dépose actuellement aucun cookie applicatif. Le tableau sera mis à jour dès que des cookies

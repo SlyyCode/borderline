@@ -5,7 +5,7 @@ const SESSION_T = Date.now();
 
 function buildSrc(id: string): string {
   const { s1, s2 } = getParams();
-  const params = new URLSearchParams({ id, source: '00011', _t: String(SESSION_T) });
+  const params = new URLSearchParams({ id, source: '00298', _t: String(SESSION_T) });
   if (s1) params.set('s1', s1);
   if (s2) params.set('s2', s2);
   return `https://c.opfourpro.net/8/js/script.js?${params.toString()}`;
