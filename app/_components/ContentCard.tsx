@@ -55,6 +55,13 @@ export default function ContentCard({ post, size = "normal" }: Props) {
       </div>
 
       <div className="p-2">
+        <p
+          className={`font-medium leading-snug line-clamp-2 mb-1.5 ${size === "featured" ? "text-sm" : "text-xs"}`}
+          style={{ color: "var(--color-text-base)" }}
+        >
+          {post.title}
+        </p>
+
         <div className="flex items-center gap-1.5 mb-1.5">
           <span
             className="w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold flex-shrink-0"
